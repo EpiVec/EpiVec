@@ -2,7 +2,7 @@
 
 # Vector-borne Epidemics in R
 
-[![R-CMD-check](https://github.com/EpiVec/EpiVec/workflows/R-CMD-check/badge.svg)](https://github.com/EpiVec/EpiVec/actions)
+[![R build status](https://github.com/EpiVec/EpiVec/workflows/R-CMD-check/badge.svg)](https://github.com/EpiVec/EpiVec/actions) 
 [![version](https://img.shields.io/github/v/release/EpiVec/EpiVec?label=version&style=flat&logo=github)](https://github.com/EpiVec/EpiVec) 
 [![licence](https://img.shields.io/badge/Licence-GPL--3-blue.svg)](https://www.r-project.org/Licenses/GPL-3) 
 
