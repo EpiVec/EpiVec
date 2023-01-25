@@ -16,7 +16,7 @@ devtools::install_github("EpiVec/EpiVec")
 
 ## 2 Tutorial
 
-A tutorial vignette is available [here](https://epivec.github.io/EpiVec/articles/EpiVec.html).
+A tutorial vignette is available [here](https://epivec.github.io/EpiVec/articles/EpiVec.html). 
 
 ## 3 Dependencies
 
