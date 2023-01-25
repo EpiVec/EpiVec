@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://epivec.github.io/EpiVec/404.html</loc>
+  </url>
+  <url>
+    <loc>https://epivec.github.io/EpiVec/LICENSE-text.html</loc>
+  </url>
+  <url>
+    <loc>https://epivec.github.io/EpiVec/articles/EpiVec.html</loc>
+  </url>
+  <url>
+    <loc>https://epivec.github.io/EpiVec/articles/index.html</loc>
+  </url>
+  <url>
+    <loc>https://epivec.github.io/EpiVec/authors.html</loc>
+  </url>
+  <url>
+    <loc>https://epivec.github.io/EpiVec/index.html</loc>
+  </url>
+  <url>
+    <loc>https://epivec.github.io/EpiVec/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>https://epivec.github.io/EpiVec/reference/net_to_mat.html</loc>
+  </url>
+</urlset>
