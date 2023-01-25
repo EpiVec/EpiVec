@@ -35,7 +35,6 @@
 #' Pierre Denelle (\email{pierre.denelle@gmail.com}) and
 #' Boris Leroy (\email{leroy.boris@gmail.com})
 #'
-#' @seealso [mat_to_net]
 #'
 #' @examples
 #' \dontrun{

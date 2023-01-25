@@ -1,6 +1,6 @@
 Package: EpiVec
 Type: Package
-Title: Vector-borne Epidemics in R 
+Title: Vector-borne Epidemics in R
 Version: 0.1.0
 Authors@R: 
     c(person(given = "Maxime",
@@ -16,8 +16,14 @@ License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
+    mathjaxr,
+    rmarkdown,
     tidyr
 Suggests:
     knitr
 VignetteBuilder: knitr
 RoxygenNote: 7.2.3
+URL: https://github.com/EpiVec/EpiVec
+BugReports: https://github.com/EpiVec/EpiVec/issues
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)

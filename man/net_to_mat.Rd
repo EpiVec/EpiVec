@@ -13,17 +13,17 @@ net_to_mat(
 )
 }
 \arguments{
-\item{net}{a two- or three-columns `data.frame` where each row
+\item{net}{a two- or three-columns \code{data.frame} where each row
 represents the interaction between two nodes (site and species for example)
 and an optional third column indicating the weight of the interaction.}
 
-\item{weight}{a `boolean` indicating if the weight should be considered}
+\item{weight}{a \code{boolean} indicating if the weight should be considered}
 
-\item{squared}{a `boolean` indicating if the output matrix should but
+\item{squared}{a \code{boolean} indicating if the output matrix should but
 squared (same nodes in rows and columns).}
 
-\item{symmetrical}{a `boolean` indicating if the resulting matrix
-should be symmetrical (only if `squared = TRUE`).
+\item{symmetrical}{a \code{boolean} indicating if the resulting matrix
+should be symmetrical (only if \code{squared = TRUE}).
 Note that different weights associated with two opposite pairs already
 present in net will be preserved.}
 
@@ -31,19 +31,19 @@ present in net will be preserved.}
 in net (0 by default).}
 }
 \value{
-A `matrix` with the first nodes (first column of `net`) as
-rows and the second nodes (second column of `net`) as columns. Note
-that if `squared = TRUE` the rows and columns have the same number of
+A \code{matrix} with the first nodes (first column of \code{net}) as
+rows and the second nodes (second column of \code{net}) as columns. Note
+that if \code{squared = TRUE} the rows and columns have the same number of
 elements corresponding to the concatenation of unique objects in
-`net`'s first and second columns. If `squared = TRUE` the matrix
+\code{net}'s first and second columns. If \code{squared = TRUE} the matrix
 can be forced to be symmetrical based on the upper triangular part of the
 matrix.
 }
 \description{
 This function creates a contingency table from a two- or three-columns
-`data.frame` where each row represents the interaction between two
+\code{data.frame} where each row represents the interaction between two
 nodes (site and species for example) and an optional third column indicating
-the weight of the interaction (if `weight = TRUE`).
+the weight of the interaction (if \code{weight = TRUE}).
 }
 \examples{
 \dontrun{
@@ -56,9 +56,6 @@ net <- data.frame(
 mat <- net_to_mat(net, weight = TRUE)
 }
 
-}
-\seealso{
-[mat_to_net]
 }
 \author{
 Maxime Lenormand (\email{maxime.lenormand@inrae.fr}),
