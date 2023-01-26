@@ -24,7 +24,6 @@ Suggests:
 VignetteBuilder: knitr
 RoxygenNote: 7.2.3
 URL: https://github.com/EpiVec/EpiVec,
-    https://epivec.github.io/EpiVec/
+     https://epivec.github.io/EpiVec/
 BugReports: https://github.com/EpiVec/EpiVec/issues
-Config/testthat/edition: 3
 Roxygen: list(markdown = TRUE)
