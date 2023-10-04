@@ -35,6 +35,9 @@ options(tinytex.verbose = TRUE)
 ## 0. Brief introduction
 
 
+```{r}
+test()
+```
 
 
 

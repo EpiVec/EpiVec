@@ -17,8 +17,14 @@ Encoding: UTF-8
 LazyData: true
 Imports:
     mathjaxr,
+    Rdpack,
     rmarkdown,
+    sf,
+    TDLM,
     tidyr
+RdMacros: 
+    mathjaxr,
+    Rdpack
 Suggests:
     knitr
 VignetteBuilder: knitr
