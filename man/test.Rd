@@ -19,7 +19,7 @@ test
 \insertCite{Reyna2022}{EpiVec}
 }
 \examples{
-print test
+#print test
 
 }
 \author{

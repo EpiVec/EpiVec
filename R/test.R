@@ -12,7 +12,7 @@
 #' Maxime Lenormand (\email{maxime.lenormand@inrae.fr})
 #'
 #' @examples
-#' print test
+#' #print test
 #'
 #' @export
 test <- function(test = TRUE) {
@@ -43,15 +43,24 @@ test <- function(test = TRUE) {
   spi <- extract_spatial_information(county, id = "ID")
   
   distance2 <- spi$distance
-  
-  
-  library(sf)
+
   
   data(county)
   
-  sij <- extract_opportunities(opportunity = mi,
-                               distance = distance,
-                               check_names = TRUE)
+  res <- run_law_model(law = "NGravExp", 
+                       mass_origin = mi, 
+                       mass_destination = mj, 
+                       distance = distance, 
+                       opportunity = NULL,
+                       param = 0.01,
+                       write_proba = TRUE,
+                       
+                       model = "DCM", 
+                       nb_trips = NULL, 
+                       out_trips = Oi, 
+                       in_trips = Dj,
+                       average = FALSE, 
+                       nbrep = 3)
   
   
 }

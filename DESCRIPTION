@@ -22,6 +22,8 @@ Imports:
     sf,
     TDLM,
     tidyr
+Remotes:
+    EpiVec/TDLM
 RdMacros: 
     mathjaxr,
     Rdpack
